@@ -1,0 +1,17 @@
+name: Deploy Manual
+
+on: workflow_dispatch
+
+jobs:
+  deploy_app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Realizar o checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy no Heroku
+        uses: akhileshns/heroku-deploy@v3.13.15
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "deploy-github-actions" #Must be unique in Heroku
+          heroku_email: "oseias.dfarias@gmail.com"
