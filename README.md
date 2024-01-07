@@ -17,7 +17,7 @@ Em resumo, o GitHub Actions é uma ferramenta poderosa para automatizar os proce
 
 ### Descrição do processo
 
-Para ser possivel usar o GitHub Actions é preciso ter uma pasta dentro do repositório chamada `.github` e dentro dessa pasta outra pasta chamada`workflows` com arquivos `yaml`, para o exemplo desse repositório tem-se o arquivo `ci.yml` que possui a configuração dos processos necessários para usar o GitHub Actions.
+Para utilizar o GitHub Actions, é necessário criar uma estrutura específica dentro do repositório. Primeiramente, deve-se ter uma pasta denominada `.github`. Dentro dessa pasta, é essencial criar outra chamada `workflows`. Nesta última pasta, são armazenados os arquivos YAML que contêm as configurações necessárias para os processos automatizados do GitHub Actions. Como exemplo, neste repositório específico, encontra-se um arquivo chamado `ci.yml`, que inclui as configurações essenciais para a utilização efetiva do GitHub Actions.
 
 Para configurar o arquivo é preciso seguir alguns passos:
 
