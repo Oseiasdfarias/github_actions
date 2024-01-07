@@ -6,7 +6,7 @@ authors = ["oseiasdfarias <oseias.dfarias@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.10.13"
+python = "^3.10"
 flask = "^3.0.0"
 black = "^23.12.1"
 isort = "^5.13.2"
@@ -18,9 +18,3 @@ pydocstyle = "^6.3.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-[tools.pytest.ini_options]
-markers = [
-    "webtest: mark a test as a webtest",
-    "other",
-]
