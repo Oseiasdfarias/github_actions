@@ -1,1 +1,5 @@
-# github_actions
+# GitHub Actions
+
+Automatizando ações com GitHub Actions
+
+
