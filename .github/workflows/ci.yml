@@ -31,7 +31,7 @@ jobs:
         run: poetry run isort --check app/
 
       - name: Executa o Pydocstyle
-        run: poetry run pydocstyle --check app/
+        run: poetry run pydocstyle
 
       - name: Executa o Testes Unitários
         run: poetry run pytest
