@@ -20,4 +20,4 @@ def test_soma_3_3_retorna_6():
 
     sleep(5)
 
-    assert soma(3, 4) == 6
+    assert soma(3, 3) == 6
