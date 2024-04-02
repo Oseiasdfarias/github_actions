@@ -13,3 +13,11 @@ def test_soma_2_2_retorna_4():
     sleep(5)
 
     assert soma(2, 2) == 4
+
+@mark.slow
+def test_soma_3_3_retorna_6():
+    from time import sleep
+
+    sleep(5)
+
+    assert soma(3, 3) == 6
